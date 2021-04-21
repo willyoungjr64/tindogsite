@@ -1,0 +1,197 @@
+#title {
+    background-color: rgb(101, 247, 198);
+    color: white;
+}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+h3 {
+   
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+h2 {
+    
+    font-size: 3rem;
+    
+    line-height: 1.5;
+}
+
+/* Headings */
+
+.heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem;
+    line-height: 1.5;
+    font-weight: 900;   
+    
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+
+}
+
+.phone-image {
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+    padding: 0px 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0%;
+}
+
+.features-icon {
+    text-align: center;
+    width: 100%;
+    font-size: 4rem;
+    color:  rgb(101, 247, 198);
+    margin-bottom: 1rem;
+}
+
+.features-icon:hover {
+    color:rgb(52, 146, 115)
+}
+
+
+
+.features-col {
+    
+    padding: 3%;
+}
+
+#features p {
+    color: #8f8f8f;
+}
+#features {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+       
+}
+
+.phone-image {
+    
+    position: absolute;
+    right: 25%;
+   
+}
+
+
+
+#testimonials {
+  
+    text-align: center;
+    background-color: rgb(17, 248, 171);
+    color: #fff;
+}
+
+
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: rgb(17, 248, 171);
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 40px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+    .phone-image {
+        position: static;
+        transform: rotate(0);
+
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+#cta {
+    background-color: rgb(101, 247, 198);
+    font-family: "Montserrat";
+    color: white;
+    text-align: center;
+    padding: 7% 15%;   
+}
+
+.cta-message {
+    font-family: "Montserrat";
+    font-weight: 900;
+    line-height: 1.5;
+    font-size: 4rem;
+}
+
+.cta-btn {
+    margin: 5% 1% 0 1%;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+    
+}
+
+.social-icons {
+    letter-spacing: 1rem;
+    
+}
+
+.copyright {
+    color: gray;
+}
